@@ -37,7 +37,6 @@ async def on_message(message):
           "국내 치료중: " + data["NowCase"] + "\n\n" +
           "==========================================="
         )
-        print("NzY2NTQ2ODA4NDk0NzUxNzQ1.X4k8WA.UAba9UIsaw_7tWU7Cx7cX7N1CX0")
         
 
-client.run("your_client_id")
+client.run(os.environ['token'])
