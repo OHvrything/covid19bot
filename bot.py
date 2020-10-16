@@ -3,6 +3,8 @@ import time
 import requests
 import json
 import re #계산을 위한 특수문자 제거
+from discord.ext import commands
+import os
 
 client = discord.Client()
 
